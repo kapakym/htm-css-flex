@@ -1,0 +1,57 @@
+
+
+html, body {
+    height: 99%;
+    overflow: hidden;
+    
+}
+div.main {
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    height: 98vh;
+}
+
+div.row {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    flex: 1;
+    overflow: auto;
+}
+div.tab-content {
+    overflow: auto;
+    flex: 1;
+    /* height: ; */
+}
+
+div.tabs {
+    height: 100px;
+    background-color: tomato;
+}
+
+div.left-box {
+    flex: 2;
+    background-color: yellow;
+    overflow-y: auto;
+}
+
+div.right-box {
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    overflow-y: auto;
+}
+
+div.menu {
+    background-color: blue;
+    color: white;
+    height: 100px;
+}
+div.bottom-box {
+    background-color: violet;
+    height: 100px;
+    overflow-y: auto;
+}
+
